@@ -1,0 +1,9 @@
+@media only screen and (min-width: 32.5em){
+    
+    body{
+        background-color: brown;
+    }
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
