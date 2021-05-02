@@ -1,8 +1,22 @@
 body{
-    background-color: blue;
+    background-color: black;
+}
+
+header{
+    text-justify: center;
+    font-size: 60px;
+    background-color:gray;
 }
 
 main{
     display: grid;
     grid-template-columns: 1fr;
+}
+
+img{
+    size: 150px;
+}
+.nikesection{
+     background-color: black; 
+    grid-column: span 1;
 }
