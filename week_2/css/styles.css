@@ -1,5 +1,5 @@
 body{
-    background-color:;
+    background-color:brown;
 }
 
 header{
@@ -15,8 +15,12 @@ main{
 
 /* img{
     size: 150px;
-}
-.nikesection{
-     background-color: black; 
-    grid-column: span 1;
 } */
+.nikesection{
+    background-color:gray; 
+    grid-column: span 1;
+} 
+
+footer{
+    justify-self: center;
+}
