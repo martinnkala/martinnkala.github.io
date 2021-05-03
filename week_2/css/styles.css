@@ -21,7 +21,7 @@ footer{
 }
 
 img{
-    width: 600px;
+    width: 500px;
     /* height: 80px; */
 }
 
@@ -48,4 +48,8 @@ section{
     text-align: center;
     border-radius: 25px;
     padding: 30px;
+}
+
+p{
+    line-height: 1.6;
 }
