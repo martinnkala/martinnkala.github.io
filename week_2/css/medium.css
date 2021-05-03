@@ -6,10 +6,4 @@
     main{
         grid-template-columns: 1fr 1fr;
     }
-
-section{
-    background-color: white;
-    justify-items: center;
-}
-
 }

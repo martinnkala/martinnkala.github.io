@@ -1,14 +1,10 @@
 @media only screen and (min-width: 63.5em){
 
     body{
-        background-color:aqua;
+        background-color:darkgrey;
     }
 
     main {
         grid-template-columns: 1fr 1fr 1fr;
-    }
-    section{
-        background-color: white;
-        justify-items: center;
     }
 }

@@ -3,24 +3,49 @@ body{
 }
 
 header{
-    text-justify: center;
-    font-size: 60px;
+    text-align: center;
+    font-size: 30px;
     background-color:gray;
 }
 
 main{
     display: grid;
     grid-template-columns: 1fr;
+    gap: 50px;
+    padding-top: 20px;
+    margin: 30px;
 }
 
-/* img{
-    size: 150px;
-} */
-.nikesection{
-    background-color:gray; 
-    grid-column: span 1;
+footer{
+    text-align: center;
+}
+
+img{
+    width: 60px;
+    height: 80px;
+}
+
+section{
+    padding: 20%;
 } 
 
-footer{
-    justify-self: center;
+.section1{
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.section2{
+    background-color: burlywood;
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.section3{
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
 }
