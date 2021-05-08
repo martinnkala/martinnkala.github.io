@@ -41,3 +41,31 @@ nav{
 #nav.responsive li{
     display: block;
 }
+
+@media only screen and (min-width: 34.5em) {
+    nav{
+        max-width: 100%;
+    }
+    #nav{
+        grid-template-columns: repeat(7, auto);
+    }
+    #nav li {
+        display: block;
+    }
+    #nav a {
+        text-align: center;
+    }
+    #nav li:first-child {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 54.5em){
+    #nav{
+        width: 800px;
+        margin: 16px auto;;
+    }
+    /* nav{
+        width: 800px;
+    } */
+}

@@ -1,0 +1,61 @@
+@media only screen and (min-width: 54.5em){
+body{
+    /* background-color: rgba(0, 0, 0, 0.219); */
+    background-color:grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 70px;
+}
+main{
+    text-align: center;
+}
+#sitename p{
+    text-align: center;
+}
+#sitename, #purpose{
+    text-align: center;
+}
+header h1{
+    text-align: center;
+    font-size: 30px;
+}
+.p3{
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 1.5em;
+}
+#nav{
+    list-style: none;
+    /* padding: 10px; */
+    padding-bottom: 20px;
+    padding-left: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    font-size: 60px;
+    background-color:white;
+    border-radius: 15px;
+}
+#nav a{
+    font-size: 20px;
+    padding-left: 20px;
+    grid-gap: 10px;
+}
+
+#nav a:hover{
+    color: black;
+    background-color: whitesmoke;
+} 
+img{
+    border-radius: 15px;
+    width: 250px;
+    float: right;
+}
+
+.targettedaud div p{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+}
+}

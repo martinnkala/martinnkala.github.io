@@ -4,3 +4,6 @@ window.addEventListener('load', () => {
 
     hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')},false)
 });
+
+
+// domain names: godaddy.com
