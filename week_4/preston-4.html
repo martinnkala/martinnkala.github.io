@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <script src= "ham_menu.js"></script>
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="css/large.css">
+    <script src= "js/ham_menu.js"></script>
     
 </head>
 <body>
@@ -18,22 +20,19 @@
         </div> 
         
     </header>
-        <nav>
-        <div class = "topnav">
-            <a class="ham" href="#">&#9776;</a>
-            <a href="#"> Home</a>
-            <a class = "active " href="preston-4.html">Preston</a>
-            <a href="#">Soda Springs</a>
-            <a href="#">Fish Haven</a>
-            <a href="#">Storm Center</a>
-            <a href="#">Gallery</a>
-        </div>
-        </nav>
-
-
-
-
+        
     <main>
+        <nav>
+        <ul id = "nav">
+            <li><a class="ham" href="#">&#9776;</a></li> 
+           <li> <a href="#"> Home</a></li>
+            <li><a class = "active " href="preston-4.html">Preston</a></li> 
+           <li><a href="#">Soda Springs</a></li> 
+           <li><a href="#">Fish Haven</a></li> 
+           <li><a href="#">Storm Center</a></li> 
+            <li> <a href="#">Gallery</a></li>
+        </ul>
+        </nav>
          <div class="preston"><h2>Preston Idaho</h2></div>
          <div><img class="hero-img" src="images\heroimg.jpg" alt=""> </div>
             <h2 id = "flogo">Five Day Forecast</h2>
@@ -44,34 +43,27 @@
             <img src="images\weather.jpg" alt="Forecast">
             <img src="images\weather.jpg" alt="Forecast">
          </div>
-          <p class="article">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Bibendum neque egestas congue quisque egestas. Tempor orci eu lobortis elementum. Orci ac auctor augue mauris augue.
-            Quis eleifend quam adipiscing vitae proin sagittis. Tellus elementum sagittis vitae et leo duis.
-            Massa ultricies mi quis hendrerit dolor magna. Convallis posuere morbi leo urna molestie at elementum eu facilisis.
-            Dui ut ornare lectus sit amet est placerat in. Nisi vitae suscipit tellus mauris. Ultrices gravida dictum fusce ut placerat orci nulla.
-            Nisl nunc mi ipsum faucibus vitae. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. 
-            Pharetra pharetra massa massa ultricies. 
-            Vitae purus faucibus ornare suspendisse. Non consectetur a erat nam at lectus urna duis.
-             Nec nam aliquam sem et tortor.
-            
-        </p>
-    
-         <div class = "socialmap">
-        <div class = "map"> <img src="images\prestonimg.jpg" alt="Map">
+         <div class = "article-container">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Bibendum neque egestas congue quisque egestas. Tempor orci eu lobortis elementum. Orci ac auctor augue mauris augue.
+                Quis eleifend quam adipiscing vitae proin sagittis. Tellus elementum sagittis vitae et leo duis.
+                Massa ultricies mi quis hendrerit dolor magna. Convallis posuere morbi leo urna molestie at elementum eu facilisis.
+                Dui ut ornare lectus sit amet est placerat in. Nisi vitae suscipit tellus mauris. Ultrices gravida dictum fusce ut placerat orci nulla.
+                Nisl nunc mi ipsum faucibus vitae. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. 
+                Pharetra pharetra massa massa ultricies. 
+                Vitae purus faucibus ornare suspendisse. Non consectetur a erat nam at lectus urna duis.
+                Nec nam aliquam sem et tortor.  
+            </p>
+            <img src="images\art-img.jpg" alt="Article image">
         </div>
-        <div = "contactsocial">
-        <div class = "contactinfo">     
-        <address>
-            Contact Information:<br>
-            273 S. 5TH W.<br>
-            354467 Rexburg<br>
-            ID<br>
-            83440<br>
-            <b>Phone Number:</b><br>
-            208-777-0000
-        </address>
-        </div>
+         
+        <div class = "contactinfo"> 
+             <div class = "contact"> <img src="images\phoneicon.png" alt=""><p>208-123-4566</p> </div>
+             <div class = "contact"><img src="images\emailicon.png" alt=""> <p> prestonID@gmail.com</p> </div> 
+             <div class = "contact" id = "location"> <img  src="images\locationicon.png" alt=""><p>Preston</p></div>  
+        </div>     
+
         <div class = "socialmedia">
         <a href="https://facebook.com"></a>
         <img src="images\fbicon.png" alt="Facebook">
@@ -81,16 +73,14 @@
         <img src="images\googleicon.png" alt="Google">
         </div>
         </div>
-        </div>
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853456914!2d-111.91534451437809!3d42.09974162636517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621655272225!5m2!1sen!2sus" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe></div>
     </main>
 </body>
 
 <footer>
-    <p id = "copyright"> &copy2021 | Martin T. Nkala | Idaho | <a href="">BYUI Online Learning</a> </p>
-    <p id="timetracker"></p>
+    <div class = "time"></div>
 </footer>
-<script>
-    var d = new Date();
-    document.getElementById("timetracker").innerHTML = d;
-</script>
 </html>
