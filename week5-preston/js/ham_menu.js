@@ -14,4 +14,5 @@ window.addEventListener('load', () => {
     const month = d.getMonth()
     const date = d.getDate()
     const year = d.getFullYear()
-    datefooter.innerHTML = `${days[day]}, ${date} ${months[month]} ${year}`});
+    datefooter.innerHTML = `${days[day]}, ${date} ${months[month]} ${year}`
+});

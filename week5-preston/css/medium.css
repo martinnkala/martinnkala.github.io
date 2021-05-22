@@ -1,0 +1,52 @@
+
+@media only screen and (min-width: 34.5em){
+    nav{
+      margin: 0 auto;
+      max-width: 75%;
+      background-color: #12aaeb;
+    }
+    
+    #nav {
+      list-style: none;
+      padding: 0;
+      grid-template-columns: repeat(6,1fr);
+      display: grid;
+    }
+    #nav a { 
+      display: block;
+      /*em = compared to parent 
+       rem = compared to the body */
+      padding: 0.75rem;
+      text-align: left;
+      text-decoration: none;
+      color: black;
+      font-weight: 700;
+    }
+    #nav li {
+      display: block;
+    }
+    #nav li:first-child{
+      display: none;
+    }
+    
+    #nav a:hover, #nav a.active:hover{
+      color: white;
+      background-color: black;
+    } 
+    
+    #nav a.active {
+      background-color: rgba(0, 0, 0, .55);
+      color:white;
+    }
+    
+    #nav.responsive li{
+      display: block;
+    }
+    .preston{
+      font-size: 5Opx;
+    }
+   .hero-img{
+        width:0px;
+        padding-right: 20px;
+   }
+    }
