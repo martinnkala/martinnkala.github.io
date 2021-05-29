@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 34.5em){
+/* @media only screen and (min-width: 34.5em){ */
     nav{
       margin: 0 auto;
       max-width: 75%;
@@ -52,4 +52,4 @@
         width:0px;
         padding-right: 20px;
    }
-    }
+    /* } */
