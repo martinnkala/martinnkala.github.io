@@ -88,7 +88,7 @@
       .contactinfo img{
         object-fit: cover;
         padding-left: 16px;
-        width: 40px;
+        width: 35px;
         height: 35px;
         padding-top: 14px;
       }
@@ -100,6 +100,7 @@
         margin-left: 10px;
         font-size: 20px;
         height: 35px;
+        align-items: center;
       }
       .socialmedia{
         padding: 30px;

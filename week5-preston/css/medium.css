@@ -5,6 +5,9 @@
       max-width: 75%;
       background-color: #12aaeb;
     }
+    header{
+      padding-left: 115px;
+    }
     
     #nav {
       list-style: none;

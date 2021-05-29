@@ -2,7 +2,7 @@
 /* @media only screen and (min-width: 32.5em){ */
     
 body{
-   background-color: grey;
+   background-color:white;
    font-family: 'Patrick Hand', cursive;
    padding: 30px;
    
@@ -14,11 +14,28 @@ header{
     display: flex;
     grid-template-columns: auto;
     background-color:skyblue;
-    padding-left: 115px;
+   
+}
+/* .relativeimg{
+  width: 30px;
+} */
+.hero-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hero-container .hero-img{
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.hero-container .relativeimg{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+  margin:10px
 }
 .pancakes{
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   display: block;
   text-align: center;
 }
