@@ -105,6 +105,14 @@ nav{
     height: 300px;
     object-fit: cover;
   }
+  .weather-container{
+    border-radius: 20px;
+  }
+  .weather{
+    /* padding: 20px; */
+    /* border-radius: 15px; */
+    line-height: 5px;
+  }
   #flogo{
     text-align: center;
     font-size: 24px;
