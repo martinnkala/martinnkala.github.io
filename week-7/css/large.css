@@ -118,5 +118,30 @@
         height: 40px;
         object-fit: cover;
       }
+      .img-container{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        margin: auto;
+        /* padding:20px; */
+        gap: 15px;
+      } 
+      
+      .placeholder-loading{
+        border-radius: 15px;
+      }
+      .placeholder-loading img{
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+      }
+      .placeholder-loading:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      h3{
+        margin-top:10px;
+        text-align: center;
+      }
   
 }
