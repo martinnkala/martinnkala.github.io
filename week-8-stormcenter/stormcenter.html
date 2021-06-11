@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <div class="pancakes">
+      Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+      park pavilion.
+    </div>
+    <header>
+      <img class="logo" src="images\preston-logo-small.png" alt="logo" />
+      <div class="nav-info">
+        <h1>Children's Park Day Site</h1>
+        <h3>All Day Parking!!</h3>
+      </div>
+    </header>
+
+    <main>
+      <nav>
+        <ul id="nav">
+          <li><a class="ham" href="#">&#9776;</a></li>
+          <li><a href="#"> Home</a></li>
+          <li><a class="active" href="preston-4.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+      </nav>
+      <div class="preston"><h2>Preston Idaho</h2></div>
+      <form>
+        <label for="fname">Full Name:</label>
+        <input
+          type="text"
+          required
+          name="fname"
+          placeholder="Nomthandazo Audrey"
+          id="fname"
+        />
+        <label for="email">Email Address:</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="nomt@gmail.com"
+          id="email"
+        />
+        <label for="Phone">Phone Number:</label>
+        <input
+          type="tel"
+          required
+          placeholder="000-000-0000"
+          name="Phone"
+          id="phone"
+        />
+        <label for="zip">Zip Code:</label>
+        <input type="number" required name="zip" placeholder="12345" id="zip" />
+        <label for="sdate"> Storm Date:</label>
+        <input type="date" placeholder="Jan-04-2021" name="sdate" id="date" />
+        <label for="stype">Storm Type:</label>
+        <input
+          list="Stormtype"
+          name="stype"
+          placeholder="Select Storm type"
+          id="stormSearch"
+        />
+        <datalist id="Stormtype">
+          <option value="Flash Flood">Flash Flood</option>
+          <option value="Hail">Hail</option>
+          <option value="Hurricane">Hurricane</option>
+          <option value="Thunderstorm">Thunderstorm</option>
+          <option value="Tornado">Tornado</option>
+        </datalist>
+        <input
+          type="range"
+          id="rating"
+          value="5"
+          min="1"
+          max="10"
+          step="1"
+          list="tickmarks"
+        />
+
+        <input type="Submit" value="Submit" id="submit" />
+      </form>
+    </main>
+    <script src="js/ham_menu.js"></script>
+  </body>
+
+  <footer>
+    <div class="time"></div>
+  </footer>
+</html>
