@@ -237,16 +237,33 @@ form {
 #date,
 #fname,
 #phone,
-#stormSearch {
+#stormSearch,
+#rating,
+#region {
   margin-bottom: 20px;
   padding: 10px;
 }
+.selection {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+fieldset,
+textarea {
+  margin-bottom: 20px;
+}
+legend {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
 label {
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 #submit {
   width: 150px;
-  height: 50px;
+  height: 40px;
   border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
