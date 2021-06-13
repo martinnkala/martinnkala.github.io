@@ -37,7 +37,11 @@ header tr td p {
 }
 
 #blackfriday {
-    padding-right: 300px;
+    padding-right: 40px;
+}
+
+#italics {
+    font-style: italic;
 }
 
 #november {
