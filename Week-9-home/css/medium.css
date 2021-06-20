@@ -154,6 +154,8 @@
     h4,
     p {
         grid-column: 1/2;
+        margin: 0px;
+        /* padding: 5px; */
     }
     .places img {
         grid-column: 2/3;
