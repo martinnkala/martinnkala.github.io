@@ -1,0 +1,236 @@
+/* large Screen */
+
+@media only screen and (min-width: 53.5em) {
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    nav {
+        margin: 0 auto;
+        max-width: 100%;
+        background-color: #12aaeb;
+        font-size: 15px;
+    }
+    header {
+        padding-left: 160px;
+    }
+    #nav {
+        list-style: none;
+        padding: 0;
+        grid-template-columns: repeat(6, 1fr);
+        display: grid;
+    }
+    #nav a {
+        display: block;
+        /*em = compared to parent 
+         rem = compared to the body */
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav li:first-child {
+        display: none;
+    }
+    #nav a:hover,
+    #nav a.active:hover {
+        color: white;
+        background-color: black;
+    }
+    #nav a.active {
+        /* background-color: rgba(0, 0, 0, .55);
+        color:white; */
+        text-decoration: underline;
+    }
+    #nav.responsive li {
+        display: block;
+    }
+    .preston {
+        font-size: 20px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .hero-container picture img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .weather-container {
+        width: 200px;
+    }
+    picture {
+        width: 800px;
+    }
+    .forecast {
+        overflow: hidden;
+    }
+    .article-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+    .article-container p {
+        text-align: center;
+        font-family: "Recursive", sans-serif;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .article-container img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .contactinfo {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .contactinfo img {
+        object-fit: cover;
+        padding-left: 16px;
+        width: 35px;
+        height: 35px;
+        padding-top: 14px;
+    }
+    .contact,
+    #location {
+        display: flex;
+    }
+    .contact,
+    #location p {
+        margin-left: 10px;
+        font-size: 20px;
+        height: 35px;
+        align-items: center;
+    }
+    .socialmedia {
+        padding: 30px;
+    }
+    .socialmedia img {
+        border-radius: 15px;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .img-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+        /* padding:20px; */
+        gap: 15px;
+    }
+    .placeholder-loading {
+        border-radius: 15px;
+    }
+    .placeholder-loading img {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .placeholder-loading:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    h3 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    /* This is my Storm Center CSS */
+    form {
+        display: flex;
+    }
+    .selection {
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+    textarea {
+        grid-column: 100%;
+        width: 100%;
+    }
+    fieldset,
+    textarea {
+        margin-bottom: 20px;
+    }
+    legend {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 25px;
+    }
+    label {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    #submit {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    /* This is my CSS for the Home Page
+    .container {
+        display: flex;
+        align-items: center;
+        /* gap: 10px 20px; */
+    /* padding: 20px;
+} */
+    /* .places {
+    width: 100%;
+    height: 100%;
+}
+
+.places img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    grid-column: 1/3;
+}
+
+h2,
+h4,
+p {
+    text-align: center;
+}
+
+h2,
+h4 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-synthesis: weight;
+    font-family: Georgia, "Times New Roman", Times, serif;
+} */
+    .places img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        grid-column: 1/3;
+    }
+    h2,
+    h4,
+    p {
+        text-align: center;
+        grid-column: 1/3;
+    }
+    .places .reverse-left {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        grid-column: 1/3;
+    }
+    .places .reverse-right {
+        text-align: center;
+        grid-column: 1/3;
+    }
+}

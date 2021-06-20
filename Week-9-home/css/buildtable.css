@@ -1,0 +1,122 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Oxygen", sans-serif;
+    color: #444;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300px;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+    font-weight: 900;
+}
+
+p {
+    text-align: center;
+}
+
+#oddNumbers {
+    background-color: #e7f0ed;
+}
+
+#evenNumbers {
+    background-color: #e7ffed;
+}
+
+table {
+    width: 50%;
+}
+
+header tr td p {
+    text-align: center;
+    background-color: #628ca6;
+    font-size: 40px;
+}
+
+#blackfriday {
+    padding-right: 40px;
+}
+
+#italics {
+    font-style: italic;
+}
+
+#november {
+    background-color: #628ca6;
+}
+
+
+/* Table Layout */
+
+table.vitamins {
+    border-style: solid;
+    border-spacing: 5;
+    border-color: grey;
+    /* background: #212121; */
+    color: black;
+}
+
+table.vitamins th,
+table.vitamins td {
+    text-align: center;
+}
+
+table.vitamins thead {
+    line-height: 10px;
+    background-color: #628ca6;
+}
+
+table.vitamins thead th {
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 1px;
+    vertical-align: bottom;
+}
+
+
+/* table.vitamins thead th:nth-child(1) {
+    width: 20%;
+    text-align: left;
+    padding-left: 20px;
+} */
+
+table.vitamins thead th:nth-child(2) {
+    width: 30%;
+}
+
+table.vitamins thead th:nth-child(3) {
+    width: 35%;
+}
+
+
+/* table.vitamins thead th:nth-child(4) {
+    width: 15%;
+} */
+
+table.vitamins tbody {
+    font-size: 1em;
+    /* line-height: 15px; */
+}
+
+
+/* table.vitamins tbody tr {
+    border-top: 2px solid rgba(109, 176, 231, 0.8);
+    transition: background 0.6s, color 0.6s;
+} */
+
+table.vitamins tbody td {
+    padding: 5px;
+}
+
+
+/* table.vitamins tfoot {
+    font-size: 0.8em;
+} */
+
+table.vitamins tfoot td {
+    background-color: #628ca6;
+    font-size: 16px;
+}
