@@ -14,8 +14,9 @@ fetch(requestURL)
         );
         console.log(filterdtown);
         for (let i = 0; i < filterdtown.length; i++) {
-            let container = document.createElement("div");
+            // let container = document.createElement("div");
             let places = document.createElement("div");
+            console.log(places)
             let h2 = document.createElement("h2");
             let h4 = document.createElement("h4");
             let image = document.createElement("img");
@@ -29,7 +30,6 @@ fetch(requestURL)
             population.textContent = filterdtown[i].currentPopulation;
             rainfall.textContent = filterdtown[i].averageRainfall;
 
-            container.classList.add("container");
             places.classList.add("places");
             if (i == 1) {
                 h2.classList.add("reverse-right");
@@ -39,7 +39,7 @@ fetch(requestURL)
                 year.classList.add("reverse-right");
                 image.classList.add("reverse-left");
             }
-
+            let container = document.querySelector('.container')
             places.appendChild(h2);
             places.appendChild(h4);
             places.appendChild(year);
@@ -48,8 +48,9 @@ fetch(requestURL)
             places.appendChild(image);
             container.appendChild(places);
 
-            document.querySelector("div.container").appendChild(container);
+            // document.querySelector("div.container").appendChild(container);
             image.setAttribute("src", "images/" + filterdtown[i].photo);
+
 
             h2.innerHTML = filterdtown[i].name;
             h4.innerHTML = filterdtown[i].motto;
