@@ -1,0 +1,292 @@
+/* @media only screen and (min-width: 32.5em){ */
+
+body {
+    background-color: white;
+    font-family: "Patrick Hand", cursive;
+    padding: 30px;
+}
+
+main {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    grid-template-columns: auto;
+    background-color: skyblue;
+}
+
+
+/* .relativeimg{
+  width: 30px;
+} */
+
+
+/* .hero-container{
+  display: grid;
+  grid-template-rows: 1fr 1fr; */
+
+.hero-container,
+.hero-container .weather-container {
+    width: 100%;
+    margin: 10px;
+}
+
+.hero-container picture {
+    height: 100px;
+}
+
+.pancakes {
+    color: black;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 25px;
+    padding-top: 20px;
+    height: 36px;
+    object-fit: cover;
+}
+
+.nav-info {
+    padding-left: 10px;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    background-color: #12aaeb;
+    padding-left: 15px;
+}
+
+
+/* span {
+    padding: 5px;
+} */
+
+nav {
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #12aaeb;
+}
+
+#nav {
+    list-style: none;
+    padding: 0;
+    grid-template-columns: auto;
+    display: grid;
+}
+
+#nav a {
+    display: block;
+    /*em = compared to parent 
+   rem = compared to the body */
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+#nav li:first-child {
+    display: block;
+}
+
+#nav li {
+    display: none;
+}
+
+#nav a:hover,
+#nav a.active:hover {
+    color: white;
+    background-color: black;
+}
+
+#nav a.active {
+    /* background-color: rgba(0, 0, 0, .55); */
+    /* color:white; */
+    text-decoration: underline;
+}
+
+#nav.responsive li {
+    display: block;
+}
+
+.preston {
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.weather-container {
+    border-radius: 20px;
+}
+
+.weather {
+    /* padding: 20px; */
+    /* border-radius: 15px; */
+    line-height: 5px;
+}
+
+#flogo {
+    text-align: center;
+    font-size: 24px;
+    line-height: 12px;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* column-gap: 10px; */
+    padding-bottom: 12px;
+    overflow: scroll;
+    align-items: center;
+}
+
+
+/* .forecast img {
+    height: 120px;
+    width: 130px;
+    margin: 3px;
+} */
+
+.daoftheweek {
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.fiveDayTemp {
+    text-align: center;
+    font-family: cursive;
+    font-size: 15;
+}
+
+img .Images {
+    align-items: center;
+    size: 100px;
+}
+
+.weatherforecast-container {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.socialmap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #333;
+    padding-left: 300px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.article-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 20px;
+}
+
+.article-container p {
+    text-align: center;
+    font-family: "Recursive", sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.article-container img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contactinfo img {
+    object-fit: cover;
+    padding-left: 16px;
+    width: 40px;
+    height: 20px;
+    padding-top: 14px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact p {
+    margin-left: 10px;
+    font-size: 20px;
+    height: 35px;
+}
+
+#location {
+    display: none;
+}
+
+.socialmedia {
+    padding-left: 30px;
+}
+
+.socialmedia img {
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.map {
+    padding: 30px;
+}
+
+iframe {
+    width: 100%;
+    height: 120px;
+}
+
+.time {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* This is the CSS for the Gallery Tab */
+
+.img-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding: 20px;
+    gap: 15px;
+}
+
+.placeholder-loading img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.placeholder-loading:hover {
+    -webkit-box-shadow: 16px -1px 15px 2px rgba(0, 0, 0, 0.87);
+    box-shadow: 16px -1px 15px 2px rgba(0, 0, 0, 0.87);
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+}
