@@ -39,5 +39,7 @@ def process_request():
             final_request[productname] = [quantity]
             
     print(final_request)
-main()
+    
+    if __name__ == '__main__': 
+        main()
     
