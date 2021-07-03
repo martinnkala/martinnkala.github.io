@@ -26,13 +26,13 @@
       <nav>
         <ul id="nav">
           <li><a class="ham" href="#">&#9776;</a></li>
+          <li><a href="https://martinnkala.github.io/Week-9-home/index.html"> Home</a></li>
           <li>
-            <a href="https://martinnkala.github.io/Week-9-home/index.html">
-              Home</a
+            <a
+              class="active"
+              href="https://martinnkala.github.io/week-6/preston-6.html"
+              >Preston</a
             >
-          </li>
-          <li>
-            <a class="active" href="#">Preston</a>
           </li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li>
@@ -42,23 +42,16 @@
               >Storm Center</a
             >
           </li>
-          <li><a href="gallery-7.html">Gallery</a></li>
+          <li><a href="https://martinnkala.github.io/week-7/gallery-7.html">Gallery</a></li>
         </ul>
       </nav>
       <div class="preston"><h2>Preston Idaho</h2></div>
       <div class="hero-container">
         <picture>
-          <source
-            media="(min-width: 73.5em)"
-            scrset="images\wdd230_large.jpg"
-          />
-          <source
-            media="(min-width: 34.5em)"
-            scrset="images\wdd230_medium.jpg"
-          />
+         
           <img
             class="small-img"
-            src="images\wdd230_small.jpg"
+            src="images\heroimg.jpg"
             alt="Small image"
           />
         </picture>
@@ -66,7 +59,7 @@
           <h3>Weather Summary</h3>
           <div class="weather">
             <p>Currently:</p>
-            <span>Rainy</span>
+            <span class="weathertype"></span>
           </div>
           <div class="weather">
             <p>High:</p>
@@ -74,30 +67,49 @@
           </div>
           <div class="weather">
             <p>Wind Chill:</p>
-            <span id="measure"></span>
+            <span id="measure">&#8457;</span>
           </div>
-          <div class="weather">
-            <p>Wind Speed:</p>
-            <span id="speed">95</span>
-          </div>
+          <div class = "weather">
+          <p>Humidity: </p>
+          <span id="hum"></span>
         </div>
+          <div class="weather">
+            <p>Wind Speed: </p>
+            <span id="speed"> 95</span>
+          </div class = "weather">
+        </div> 
+          
 
         <h2 id="flogo">Five Day Forecast</h2>
         <div class="forecast">
-          <img src="images\weather.jpg" alt="Forecast" />
-          <img src="images\weather.jpg" alt="Forecast" />
-          <img src="images\weather.jpg" alt="Forecast" />
-          <img src="images\weather.jpg" alt="Forecast" />
-          <img src="images\weather.jpg" alt="Forecast" />
+          <div class = "weatherforecast-container"><p class="daoftheweek">Wednesday</p>
+          <p class="fiveDayTemp"></p>
+          <img class = "Images" src="images\weather.jpg" alt="Forecast" />
+          </div> 
+          
+         <div class = "weatherforecast-container"><p class="daoftheweek">Wednesday</p>
+          <p class="fiveDayTemp"></p>
+          <img class = "Images" src="images\weather.jpg" alt="Forecast" />
+          </div> 
+          <div class = "weatherforecast-container"><p class="daoftheweek">Wednesday</p>
+          <p class="fiveDayTemp"></p>
+          <img class = "Images" src="images\weather.jpg" alt="Forecast" />
+          </div> 
+          <div class = "weatherforecast-container"><p class="daoftheweek">Wednesday</p>
+          <p class="fiveDayTemp"></p>
+          <img class = "Images" src="images\weather.jpg" alt="Forecast" />
+          </div> 
+          <div class = "weatherforecast-container"><p class="daoftheweek">Wednesday</p>
+          <p class="fiveDayTemp"></p>
+          <img class = "Images" src="images\weather.jpg" alt="Forecast" />
+          </div> 
         </div>
         <div class="article-container">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum
-            neque egestas congue quisque egestas. Tempor orci eu lobortis
-            elementum. Orci ac auctor augue mauris augue. Quis eleifend quam
-            adipiscing vitae proin sagittis. Tellus elementum sagittis vitae et
-            leo duis.
+            Preston, Idaho is one of the best kept secrets of the West.  
+            Nestled on the Idaho side of beautiful Cache Valley and surrounded by towering mountains on each side,
+             it is unbeatable for recreation opportunities, 
+             has that small town feeling, and is close to whatever you need. 
           </p>
           <img src="images\img2.jpg" alt="Article image" />
         </div>
@@ -138,7 +150,7 @@
         </iframe>
       </div>
     </main>
-    <script src="js/ham_menu.js"></script>
+    <script defer src="js/ham_menu.js"></script>
   </body>
 
   <footer>

@@ -1,0 +1,6 @@
+.placeholder-loading{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    animation-delay: 0.3s;
+}
