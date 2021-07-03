@@ -4,6 +4,7 @@ body {
     background-color: white;
     font-family: "Patrick Hand", cursive;
     padding: 30px;
+    max-width: 900px;
 }
 
 main {
