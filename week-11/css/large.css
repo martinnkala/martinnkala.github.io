@@ -20,6 +20,9 @@
         grid-template-columns: repeat(6, 1fr);
         display: grid;
     }
+    .preston h2 {
+        margin: 10px;
+    }
     #nav a {
         display: block;
         /*em = compared to parent 
