@@ -198,15 +198,34 @@ img .Images {
 }
 
 .article-container p {
-    text-align: center;
+    text-align: left;
     font-family: "Recursive", sans-serif;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.events {
+    margin: 0 auto;
+    border-style: double;
+    border-radius: 15px;
+    padding: 15px;
+    border-style: double;
+    border-color: black;
+    margin-top: 50px;
+    box-shadow: 15px 15px 15px 15px grey;
+    background-color: lightgray;
+}
+
+.events h2 {
+    text-align: center;
+    text-decoration: underline skyblue;
 }
 
 .article-container img {
     width: 100%;
-    height: 160px;
+    height: 390px;
     object-fit: cover;
 }
 

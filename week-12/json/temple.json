@@ -1,0 +1,62 @@
+{
+    "Nigeria": {
+        "name": "Aba Nigeria Temple",
+        "address": "72-80 Okpu-Umuobo Rd, Aba Abia State, Nigeria Map",
+        "Telephone": "(234) 80-3903-4804",
+        "services": [
+            " No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            " Distribution center nearby"
+        ],
+        "imageurl": "https://assets.ldscdn.org/b3/1f/b31f8fc3892ce063cfbd0607cd53980290fcc0ae/aba_nigeria_temple_lds.jpeg",
+        "history": {
+            "announced": "2 April 2000",
+            "groundbreaking": "23 February 2002",
+            "dedicated": "7 August 2005"
+        }
+    },
+
+    "Ghana": {
+        "name": "Accra Ghana Temple",
+        "address": "Accra Ghana Temple Complex, 57 Independence Ave, North Ridge P.M.B. CT 209, Cantonments, Accra, Ghana, Map",
+        "Telephone": "(233) 302-650-123",
+        "services": [
+            " No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            " Distribution center nearby"
+        ],
+        "imageurl": "https://assets.ldscdn.org/87/5d/875db78e8219c9c6f476fd0fd88f444b986a0d0f/accra_ghana_temple_lds.jpeg",
+        "history": {
+            "announced": "16 February 1998",
+            "groundbreaking": "16 November 2001",
+            "dedicated": "11 January 2004"
+        }
+    },
+
+    "Zimbabwe": {
+        "name": "Harare Zimbabwe Temple",
+        "status": "under construction",
+        "address": "null",
+        "Telephone": "null",
+        "imageurl": "https://assets.ldscdn.org/53/b3/53b3640855a9374b448a5e01185af54afcfb9816/harare_zimbabwe_temple_exterior_rendering.jpeg",
+        "history": {
+            "announced": "3 April 2016",
+            "groundbreaking": "12 December 2020",
+            "dedicated": "null"
+        }
+    },
+    "Ivory coast": {
+        "name": "Abidjan Ivory Coast Temple",
+        "status": "under construction",
+        "address": "null",
+        "Telephone": "null",
+        "imageurl": "https://assets.ldscdn.org/fe/8f/fe8ff91da69736c47b04defbb41da973fc479303/rendering_abidjan_ivory_coast_temple.jpeg",
+        "history": {
+            "announced": "5 April 2015",
+            "groundbreaking": "8 November 2018",
+            "dedicated": "null"
+        }
+    }
+}
