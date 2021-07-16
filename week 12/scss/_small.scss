@@ -26,19 +26,16 @@ body {
 header {
     background-color: $primaryColor;
     padding: 1rem $gutter;
-    //end of header
     h1 {
         margin: 0;
         font-size: 1.5rem;
         font-weight: $heavyWeight;
     }
-    //end of h1 
     h2 {
         margin: 0;
         font-size: 1.2rem;
         font-weight: $regularWeight;
     }
-    //end of h2
 }
 
 nav {
@@ -64,15 +61,15 @@ nav {
     a:hover {
         background-color: #444;
     }
-} // end of nav
+}
+
 main {
     display: block;
     padding: 1rem $gutter;
-}
-
-h1 {
-    color: $primaryColor;
-    font-weight: $heavyWeight;
+    h1 {
+        color: $primaryColor;
+        font-weight: $heavyWeight;
+    }
     figure {
         margin: 0;
         width: 100%;
