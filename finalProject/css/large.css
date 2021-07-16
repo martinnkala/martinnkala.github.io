@@ -1,0 +1,94 @@
+    body {
+        font-family: 'Kalam', cursive;
+        margin: 30px;
+    }
+    
+    .hotel-logo {
+        width: 60px;
+        height: 90px;
+        margin: 0;
+    }
+    
+    h2,
+    h4 {
+        line-height: 8px;
+        color: gray;
+    }
+    
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    nav {
+        margin: 0 auto;
+        max-width: 360px;
+        background-color: #12aaeb;
+    }
+    
+    #nav {
+        list-style: none;
+        padding: 0;
+        grid-template-columns: auto;
+        display: grid;
+    }
+    
+    #nav a {
+        display: block;
+        /*em = compared to parent 
+     rem = compared to the body */
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+    
+    #nav li:first-child {
+        display: block;
+    }
+    
+    #nav li {
+        display: none;
+    }
+    
+    #nav a:hover,
+    #nav a.active:hover {
+        color: white;
+        background-color: black;
+    }
+    
+    #nav a.active {
+        text-decoration: underline;
+        color: white;
+    }
+    
+    #nav.responsive li {
+        display: block;
+    }
+    
+    @media only screen and (min-width: 34.5em) {
+        nav {
+            max-width: 100%;
+        }
+        #nav {
+            grid-template-columns: repeat(4, auto);
+        }
+        #nav li {
+            display: block;
+        }
+        #nav a {
+            text-align: center;
+        }
+        #nav li:first-child {
+            display: none;
+        }
+    }
+    
+    @media only screen and (min-width: 54.5em) {
+        #nav {
+            width: 800px;
+            margin: 16px auto;
+            ;
+        }
+    }
