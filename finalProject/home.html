@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Temple Inn & Suites | Book Reservation</title>
-    <meta name="description"
-        content="Book your room or suite on this page. A representative will contact you with more information.">
+    <title>Temple Inn & Suites | Home</title>
+    <meta name="description" content="Home of Temple Inn & Suites">
 
     <link rel="stylesheet" href="https://kaqurei.github.io/css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
@@ -16,142 +16,149 @@
 </head>
 
 <body>
+    <picture>
+        <source srcset="images/abor-large-01.svg" media="(max-width: 600px)">
+        <img class="hero-img" src="images/abor-large-02.svg" alt="A peaceful bench in the Inn Gardens">
+    </picture>
     <header>
-            <img src="images/Untitled-1-01.svg" alt="Temple Inn & Suites Logo" class="logo"><h1>Temple Inn & Suites</h1>
+        <h1>Temple Inn & Suites</h1>
     </header>
 
     <nav>
         <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
         <ul class="menu">
-            <li><a href="index.html">Home</a></li>
+            <li id="current-page"><a href="#">Home</a></li>
             <li><a href="temples.html">Temples</a></li>
             <li><a href="guest-portal.html">Guest Portal</a></li>
-            <li id="current-page"><a href="reservation.html">Book Reservation</a></li>
+            <li><a href="reservation.html">Book Reservation</a></li>
         </ul>
     </nav>
     <main class="fade">
         <section>
-            <h2>Book Your Reservation</h2>
-            <p>Rooms and suites are available on a first-come first-serve basis (with the exception of Temple workers
-                and their families, to whom we give priority). It is recommended to make reservations at least 6 months
-                in advance of your special event. Please fill out the form below and include details about your planned
-                visit that may help a representative best know how to serve you. We will contact you within 3 days of
-                your inquiry with information on what is available, as well as costs.
-            </p>
+            <div class="welcome-wrap">
+                <img id="welcome-image" src="images/temple1.jpg" alt="A view of the Temple from the hotel front.">
+                <div class="text-wrap">
+                    <h2>Welcome to Temple Inn & Suites</h2>
+                    <p>President Gordon B Hinkley said of Temples, “This is a place of light, a place of peace, a place of
+                        love, where we deal with the things of eternity.” And certainly, his words cannot be denied. All people who
+                        have ever visited the Temple can testify of the sweet spirit and peace that they feel there. Yet,
+                        many have to travel great distances to come and partake in the spirit of this great work.
+                    </p>
+                    <p>
+                        Our vision at Temple Inn and Suites is to make your stay as comfortable and stress free as
+                        possible--whether you come for a few days to participate in a family members'
+                        wedding, or many months and even years as you serve as a Temple Worker. We are conveniently
+                        located just outside Temple grounds in select locations to make your commute as short as possible. 
+                        Please visit our guest portal to learn more about accomodations and services at a Temple Inn near you.</p>
+                </div>
+            </div>
         </section>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <div class="quote">&ldquo;Come unto me, all ye that labour and are heavy laden, and I will give you
+                    rest...&rdquo; - Matthew 11:28</div>
+            </div>
+            <div class="parallax parallax1">
+                <form action="reservation.html"><button>Book Now</button></form>
+            </div>
+        </div>
+
         <section>
-            <form class="contact-form" action="thanks.html">
-                <h3>Reservation Inquiry</h3>
-                <ul class="form-shell">
-                    <li>
-                        <label for="name">Full Name*</label>
-                        <input type="text" id="name" minlength="2" maxlength="50" size="20" required
-                            pattern="[A-Z][A-Za-z' -]+">
-                    </li>
-                    <li>
-                        <label for="phone">Phone*</label>
-                        <input type="tel" id="phone" name="tel" required minlength="10">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="address@domain.com">
-                    </li>
-                    <li>
-                        <label for="area">Area:</label>
-                        <select id="area">
-                            <option selected disabled>Select Area...</option>
-                            <option value="saltlake">Salt Lake Temple</option>
-                            <option value="jordanriver">Jordan River Temple</option>
-                            <option value="draper">Draper Temple</option>
-                            <option value="tooele">Tooele Valley Temple</option>
-                        </select>
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="6" placeholder="Use this field to enter details about your planned stay, such as special accommodations and/or dietary needs, number of guests and rooms desired."></textarea>
-                    </li>
-                    <li>
-                        <p>Dates of Interest (Range)</p>
-                    <li>
-                        <label for="startDate">From*</label>
-                        <input type="date" id="startDate" name="startDate" required>
-                    </li>
-                    <li>
-                        <label for="endDate">To*</label>
-                        <input type="date" id="endDate" name="endDate" max="2020-12-31" required>
-                    </li>
-                    <li>
-                        <p>Rooms or Suite?</p>
-                        <ul class="form-skin">
-                            <li>
-                                <label for="room">Room(s)</label>
-                                <input type="radio" id="room" name="choice" value="room" checked>
-                            </li>
-                            <li>
-                                <label for="suite">Suite</label>
-                                <input type="radio" id="suite" name="choice" value="suite">
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <p>Number of expected guests (estimate)</p>
-                        <ul class="form-skin">
-                            <li>
-                                <label for="option1">1 - 2</label>
-                                <input type="radio" id="option1" name="guests" value="1 - 2" checked>
-                            </li>
-                            <li>
-                                <label for="option2">3 - 6</label>
-                                <input type="radio" id="option2" name="guests" value="3 - 6">
-                            </li>
-                            <li>
-                                <label for="option3">7 - 12</label>
-                                <input type="radio" id="option3" name="guests" value="7 - 12">
-                            </li>
-                            <li>
-                                <label for="option4">12+</label>
-                                <input type="radio" id="option4" name="guests" value="12+">
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <p>Preferred method of contact? (Please check all that apply)</p>
-                        <ul class="form-meat">
-                            <li>
-                                <input type="checkbox" id="email-pref">
-                                <label for="email-pref">Email</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="phone-pref">
-                                <label for="phone-pref">Phone</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="text-pref">
-                                <label for="text-pref">Text</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="other-pref">
-                                <label for="other-pref">Other (Please specify in comments)</label>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <button type="submit">Submit</button>
-                    </li>
-                </ul>
-            </form>
+            <h2>Featured Temple</h2>
+            <div class="featured-wrap">
+                <picture id="featuredImage">
+                    <source srcset="x.jpg" media="(max-width: 600px)">
+                    <img src="x" class="featured"
+                        alt="If this image is displayed the featured JSON data failed to load.">
+                </picture>
+                <h3 id="featuredTitle">Failed script</h3>
+                <p id="featuredDescription">Failed script</p>
+                <form action="temples.html"><button>More Temples</button></form>
+            </div>
         </section>
+
+        <div class="spotlight">
+            <span class="prev" onclick="plusSlides(-1)">&#9664;</span> <span class="next"
+                onclick="plusSlides(1)">&#9654;</span>
+
+            <div class="spotlight-head">
+                <h2>Featured Services</h2>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/family-history-small.jpg" media="(max-width: 600px)">
+                    <img src="images/family-history-large.jpg"
+                        alt="A sister missionary helps woman to find geneology information in the computer lab">
+                </picture>
+                <p>Our Family History Research lab provides guests with computers, free wifi, and family history
+                    consultants on site. Available as a special service for all guests.</p>
+                    <form action="guest-portal.html"><button>Learn More</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/breakfast-small.jpg" media="(max-width: 600px)">
+                    <img src="images/breakfast-large.jpg" alt="A large parfait with fresh oats">
+                </picture>
+                <p>Free breakfast services are included with every room and suite. We have a wide range of healthy
+                    breakfast options available, including gluten, dairy, and sugar free. Let your Temple Inn & Suites
+                    representative know if you or anyone in your party have any dietary restrictions so that we can
+                    accommodate you.</p>
+                    <form action="guest-portal.html"><button>Learn More</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/change-service-small.jpg" media="(max-width: 600px)">
+                    <img src="images/change-service-large.jpg" alt="A line of fresh clean laundry">
+                </picture>
+                <p>Temple Inn & Suites provides free of charge special changing rooms and wash services for guests who
+                    may have travelled a long distance and need to freshen up before entering the House of the Lord.</p>
+                    <form action="guest-portal.html"><button>Learn More</button></form>
+            </div>
+        </div>
+        <br>
+        <div class="dotbox">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <section>
+            <div class="testimonials-wrap">
+                <h2>Testimonials</h2>
+                <div class="testimonials">
+                    <div class="comment-wrap">
+                        <img src="images/senmis.jpg" alt="Senior missionary couple serving near a Temple.">
+                        <p>&ldquo;Temple Inn & Suites gave us the freedom to focus on the Lord's work.&rdquo;</p>
+                        <p class="name-wrap">- The Wilsons</p>
+                    </div>
+                    <div class="comment-wrap third-comment">
+                        <img src="images/family.jpg" alt="Parents and two children pose for a family photo.">
+                        <p>&ldquo;Exceptional service. Will come again!&rdquo;</p>
+                        <p class="name-wrap">- The Adams Family</p>
+                    </div>
+                    <div class="comment-wrap">
+                        <img src="images/johndoe.jpg" alt="The groom in a tuxedo on the beach.">
+                        <p>&ldquo;The perfect solution for our friends and family travelling to participate in our
+                            wedding.&rdquo;</p>
+                        <p class="name-wrap">- John Doe</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
     <footer>
         &copy;2019 Temple Inn & Suites | <a href="contact.html">Contact Us</a> | <a href="policies.html">Guest
             Policies</a>
         <p class="sub-footer"><a href="attributions.html">Attributions</a> | <a
                 href="https://kaqurei.github.io/">Destyni Shirley</a></p>
-        <script src="js/menu-script.js"></script>
+        <script src="js/main-script.js"></script>
     </footer>
 </body>
 
-</html>
 </html>
