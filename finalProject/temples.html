@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn & Suites | Temples</title>
+    <meta name="description" content="Information regarding Temple locations near Temple Inn & Suites.">
+
+    <link rel="stylesheet" href="https://kaqurei.github.io/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="css/large.css">
+</head>
+
+<body>
+    <header>
+            <img src="images/Untitled-1-01.svg" alt="Temple Inn & Suites Logo" class="logo"><h1>Temple Inn & Suites</h1>
+    </header>
+
+    <nav>
+        <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li id="current-page"><a href="temples.html">Temples</a></li>
+            <li><a href="guest-portal.html">Guest Portal</a></li>
+            <li><a href="reservation.html">Book Reservation</a></li>
+        </ul>
+    </nav>
+    <main class="fade">
+        <div class="parallax parallax3">
+            <div class="text-wrap parallax-div-wrap">
+                <h2>Temples</h2>
+                <p>
+                    While we hope to someday service Temple patrons at every Temple location, we currently only service
+                    four areas. Please see the visit the pages below for more details on each Temple.</p>
+            </div>
+        </div>
+        <div class="spotlight">
+            <span class="prev" onclick="plusSlides(-1)">&#9664;</span> <span class="next"
+                onclick="plusSlides(1)">&#9654;</span>
+            <div class="spotlight-head">
+                <div class="quote"> &ldquo;And they pitched their tents round about the temple, every man having his tent
+                    with
+                    the door thereof towards the temple...&rdquo; - Mosiah 2:6</div>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/salt-lake-temple-small.jpg" media="(max-width: 600px)">
+                    <img src="images/salt-lake-temple-large.jpg" alt="A view of the Salt Lake Utah Temple">
+                </picture>
+                <h3>Salt Lake Utah Temple</h3>
+                <p>The Salt Lake Temple is the largest Temple of the Church, and the first to feature a standing angel
+                    Moroni statue, which is 14-feet
+                    tall. Rich symbolism adorns the exterior of the Salt Lake Temple, depicting mankind's journey from
+                    mortality into the eternal realms. </p>
+                <form action="salt-lake-temple.html"><button>Visit Temple Page</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/jordan-river-temple-small.jpg" media="(max-width: 600px)">
+                    <img src="images/jordan-river-temple-large.jpg" alt="A view of the Jordan River Utah Temple">
+                </picture>
+                <h3>Jordan River Utah Temple</h3>
+                <p>The Jordan River Temple is the namesake of the Jordan River, which flows about a mile east of the
+                    temple on its course through the valley. At the entrance to the temple, visitors are greeted by a
+                    striking water fountain, which spouts among vividly colored flowers and shrubs. </p>
+                <form action="jordan-river-temple.html"><button>Visit Temple Page</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/draper-temple-small.jpg" media="(max-width: 600px)">
+                    <img src="images/draper-temple-large.jpg" alt="A view of the Draper Utah Temple">
+                </picture>
+                <h3>Draper Utah Temple</h3>
+                <p>Standing high on a ridgeline near the mouth of Draper's Corner Canyon, the Draper Utah Temple offers
+                    a inspiring view of the entire Salt Lake Valley.
+                </p>
+                <form action="draper-temple.html"><button>Visit Temple Page</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/tooele-valley-temple-small.jpg" media="(max-width: 600px)">
+                    <img src="images/tooele-valley-temple-large.jpg" alt="Temple Image coming soon">
+                </picture>
+                <h3>Tooele Valley Utah Temple</h3>
+                <p>The Tooele Valley Temple was announced in the Sunday afternoon session of General Conference, April
+                    2019, by President Russel M Nelson. Details forthcoming.</p>
+                <form action="tooele-valley-temple.html"><button>Visit Temple Page</button></form>
+            </div>
+        </div>
+        <br>
+        <div class="dotbox">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <div class="center">
+            <a href="salt-lake-temple.html">Salt Lake Temple</a> | <a href="jordan-river-temple.html">Jordan River
+                Temple</a> | <a href="draper-temple.html">Draper Temple</a> | <a href="tooele-valley-temple.html">Tooele
+                Valley Temple</a>
+        </div>
+    </main>
+    <footer>
+        &copy;2019 Temple Inn & Suites | <a href="contact.html">Contact Us</a> | <a href="policies.html">Guest
+            Policies</a>
+        <p class="sub-footer"><a href="attributions.html">Attributions</a> | <a
+                href="https://kaqurei.github.io/">Destyni Shirley</a></p>
+        <script src="js/main-script.js"></script>
+    </footer>
+</body>
+
+</html>
