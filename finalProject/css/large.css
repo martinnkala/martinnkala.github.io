@@ -29,7 +29,7 @@ section {
 
 section a:hover,
 .mySlides a:hover {
-    color: #FFAD05;
+    color: #ffad05;
 }
 
 .parallax {
@@ -44,15 +44,15 @@ section a:hover,
 }
 
 .parallax1 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-large.jpg");
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-large.jpg");
 }
 
 .parallax2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-front-large.jpg");
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-front-large.jpg");
 }
 
 .parallax3 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/temple-large.jpg");
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/temple-large.jpg");
 }
 
 .parallax button {
@@ -64,10 +64,10 @@ section a:hover,
 }
 
 button:hover {
-    color: #FFAD05;
-    background-color: #FFF;
+    color: #ffad05;
+    background-color: #fff;
     padding: 10px;
-    box-shadow: 5px 10px 8px #012A36;
+    box-shadow: 5px 10px 8px #012a36;
 }
 
 .img-wrap {
