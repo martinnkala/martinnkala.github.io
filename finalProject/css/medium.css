@@ -163,6 +163,10 @@ nav li:hover a {
     display: block;
 }
 
+hearder h1 {
+    text-align: left;
+}
+
 .img-wrap {
     max-width: none;
     margin: 0 auto;
